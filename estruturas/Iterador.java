@@ -78,7 +78,7 @@ public class Iterador {
     }
 
     public void removerAposAtual() {
-        if (haProximo() != true) {
+        if (haProximo() == false) {
             return;
         }
 
